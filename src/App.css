@@ -1,0 +1,64 @@
+body{
+    background-color: #ffffff;
+}
+
+.header{
+    padding: 3rem 0rem 3rem 3rem;
+    display: flex;
+    background-color: #fff7e7;
+}
+
+.header .title{
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Console', monospace;
+    color: #000;
+}
+
+.header .country{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Console', monospace;
+    color: #111;
+}
+
+.header-right{
+    margin-left: 100px;
+    padding: 30px;
+}
+
+.header .searchbar{
+    padding-bottom: 20px;
+}
+
+.header .togglebutton button{
+    font-size: 19px;
+}
+
+.header .searchbar button{
+    font-size: 19px;
+}
+
+.header .searchbar input{
+    height: 23px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main ul{
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.main li{
+    padding: 4px;
+}
+
+.main .date{
+    font-size: 30px;
+}
